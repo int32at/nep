@@ -1,0 +1,47 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  color: #111111;
+  margin: 0 0 4rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+header {
+  top: 0;
+  background: #39CCCC;
+  position: sticky !important;
+  font-weight: bold;
+}
+
+nav a {
+  padding: 0 1rem;
+  color: white !important;
+}
+
+footer {
+  background: #DDDDDD;
+  bottom: 0;
+}
+
+footer p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+article {
+}
+
+.bar {
+  line-height: 4rem;
+  text-align: center;
+  position: absolute;
+  height: 4rem;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}

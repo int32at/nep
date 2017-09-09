@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title #{title} - My Website
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    header.bar
+      nav
+        include navigation.pug
+    article
+      block content
+    footer.bar
+      include footer.pug
